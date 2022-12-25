@@ -1,13 +1,6 @@
 --[[
-  local Creator, Discord = "Moon", "discord.gg/Nxj2nh9YJD"
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/0x580x540x43/Animator/main/Main.lua"))(Creator, Discord)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/0x580x540x43/Animator/main/Main.lua"))()
 ]]
-
-local Funny,Monkey = ...
-if not Funny ~= "\77\111\111\110" and Monkey == "\100\105\115\99\111\114\100\46\103\103\47\78\120\106\50\110\104\57\89\74\68" then
-else
-    game:GetService("Players").LocalPlayer:Kick("Funny monkey")
-end
 
 local Global = (getgenv and getgenv()) or shared
 Global.GelatekReanimateConfig = {
